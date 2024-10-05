@@ -1,7 +1,13 @@
 /* Extra Small devices (landscape phones, 576px and up)*/
 @media (max-width: 575.98px) {
-    .text{
+    .custom{
         font-size: 20px;
+    }
+    .h1 {
+        font-size: 20px;
+    }
+    .modal-body {
+        font-size: 15px;
     }
 }
 
@@ -11,16 +17,13 @@
     
 /*Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) and (max-width: 991.98px) {
-    .text {
-        font-size: 28px;
+    .custom {
+        font-size: 20px;
     
 }
     
 /*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) and (max-width: 1199.98px) {
-    .text {
-        font-size: 45px;
-    }
 }
     
 /*Extra large devices (large desktops, 1200px and up)*/
@@ -29,5 +32,5 @@
     
 /*Extra extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1400px) {
-    
+
 }
